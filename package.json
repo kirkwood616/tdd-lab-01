@@ -1,0 +1,23 @@
+{
+  "name": "tdd-lab-01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "translate.js",
+  "scripts": {
+    "test": "jest --watchAll --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kirkwood616/tdd-lab-01.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kirkwood616/tdd-lab-01/issues"
+  },
+  "homepage": "https://github.com/kirkwood616/tdd-lab-01#readme",
+  "devDependencies": {
+    "jest": "^27.4.5"
+  }
+}
