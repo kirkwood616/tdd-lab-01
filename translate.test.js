@@ -1,8 +1,12 @@
 const translate = require("./translate.js");
 
 describe("translate", function () {
-  test("One word", function () {
+  test("One word consonant", function () {
     expect(translate("fRaNk")).toEqual("ankfray");
+  });
+
+  test("One word vowel", function () {
+    expect(translate("apPle")).toEqual("appleway");
   });
 
   test("Two words", function () {
@@ -18,6 +22,12 @@ describe("translate", function () {
   test("Several words", function () {
     expect(translate("My MilkShake Brings All The Boys To THE yARD")).toEqual(
       "myay ilkshakemay ingsbray allway ethay oysbay otay ethay ardyay"
+    );
+  });
+
+  test("Several words vowels", function () {
+    expect(translate("Eat An Orange Out Of An Urn In Atlanta")).toEqual(
+      "eatway anway orangeway outway ofway anway urnway inway atlantaway"
     );
   });
 });
