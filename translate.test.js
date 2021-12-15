@@ -9,6 +9,14 @@ describe("translate", function () {
     expect(translate("apPle")).toEqual("appleway");
   });
 
+    test("One word vowel", function () {
+    expect(translate("else")).toEqual("elseway");
+  });
+
+    test("One word vowel", function () {
+    expect(translate("giraffe")).toEqual("iraffegay");
+  });
+
   test("Two words", function () {
     expect(translate("iMpOsTeR sYnDrOmE")).toEqual("imposterway omesyndray");
   });
